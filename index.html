@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WineStore</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1>WineStore</h1>
+                <p>Wine for the Giirls!</p>
+                <form  id="search-wine">
+                    <input type="text" placeholder="Search wine..."/>
+                </form>
+            </div>
+        </header>
+        <div id="wine-list">
+            <h2 class="title"> Classy Wines to Get</h2>
+            <ul>
+                <li>
+                    <span class="name">RobertSon</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Moet</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">StrawBerry Hill</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <form  id="add-wine">
+            <input type="checkbox"  id="hide"/>
+            <label for="hide">Hide All Wines</label>
+            <input type="text" placeholder="Add wine..."/>
+
+                   <button>Add</button>
+        </form>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
